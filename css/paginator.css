@@ -1,0 +1,80 @@
+.paginator {
+    width: auto;
+    display: flex;
+    grid-gap: 20px;
+    font-size: 18px;
+    color: #454754;
+    margin-top: 10px;
+    align-items: center;
+    padding-bottom: 40px;
+    list-style-type: none;
+    justify-content: center;
+}
+.paginator a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: #454754;
+    font-weight: 700;
+    border-radius: 50px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    transition: 0.3s ease all;
+    font-family: "Roboto", sans-serif;
+}
+.paginator a:hover {
+    color: #fff;
+}
+.paginator a.is_active {
+    color: #fff;
+    background: #2A7FD9;
+}
+.paginator__btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    color: #454754;
+    font-weight: 900;
+    align-items: center;
+    border-radius: 50px;
+    background: #12151F;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+.paginator__btn:hover {
+    color: #fff;
+}
+
+@media (max-width: 1050px) {
+    .paginator {
+        padding: 0;
+        grid-gap: 10px;
+        margin-bottom: 40px;
+    }
+    .paginator a.pc__link {
+        display: none;
+    }
+    .paginator__dislink {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width: 767px) {
+    .paginator {
+        padding: 0;
+        grid-gap: 0px;
+        margin: 30px 0;
+    }
+    .paginator a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .paginator__btn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}

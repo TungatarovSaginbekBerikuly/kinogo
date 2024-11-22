@@ -1,0 +1,42 @@
+.contacts {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #1A1D27;
+    justify-content: center;
+}
+.contacts__box {
+    width: 1200px;
+    height: auto;
+
+    font-size: 18px;
+    color: #585967;
+    font-family: 'Roboto', sans-serif;
+}
+.contacts__box > h1 {
+    color: #fff;
+}
+
+@media (max-width: 1300px) {
+    .contacts {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+}
+@media (max-width: 767px) {
+    .contacts {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .contacts__box > h1 {
+        font-size: 22px;
+    }
+    .contacts__box {
+        font-size: 16px;
+    }
+}

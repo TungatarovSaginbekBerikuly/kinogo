@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinogo online cinema</title>
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">    
+        <div class="container">
+            
+            <div class="header__inner">
+
+                <!-- Burger && Logo -->
+                <div class="header__item">
+                    <!-- Burger -->
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    
+                    <!-- Logo -->
+                    <a href="#" class="header__logo">Kinogo</a>
+                
+                    <!-- Mobile Search Btn -->
+                    <a href="" class="header__icon header__icon_mobile">
+                        <i class="fa-solid fa-search"></i>
+                    </a>
+                </div>
+
+                <!-- Search Form -->
+                <form action="#" class="header__search">
+                    <input type="text" class="header__search-input" placeholder="Пираты Карибского моря 2">
+                    <button class="header__search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <!-- Icons && User -->
+                <div class="header__navs">
+                    <!-- Icons -->
+                    <div class="header__icons">
+                        <a href="" class="header__icon">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <a href="" class="header__icon">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                    </div>
+
+                    <!-- User -->
+                    <a href="#" class="header__user">
+                        <img src="images/user.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile__menu">
+        <div class="mobile__menu-container">
+            
+            <ul class="mobile__menu-list">
+                <li>
+                    <a href="#" class="mobile__menu-link">Главная</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Новинки</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Стол заказов</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Помощь</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Контакты</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="slider__item">
+            <img src="images/movie banners/2.jpg" alt="">
+            <div class="slider__components">
+                <a href="#" class="slider__btn">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+                <div href="#" class="slider__navs">
+                    <a href="#" class="slider__link">Джек Покоритель Великанов</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <img src="images/movie banners/5.jpg" alt="">
+            <div class="slider__components">
+                <a href="#" class="slider__btn">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+                <div href="#" class="slider__navs">
+                    <a href="#" class="slider__link">Кунг-фу панда 4</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <img src="images/movie banners/3.jpg" alt="">
+            <div class="slider__components">
+                <a href="#" class="slider__btn">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+                <div href="#" class="slider__navs">
+                    <a href="#" class="slider__link">Человек Паук: Возвращение домой</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <img src="images/movie banners/4.jpg" alt="">
+            <div class="slider__components">
+                <a href="#" class="slider__btn">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+                <div href="#" class="slider__navs">
+                    <a href="#" class="slider__link">Человек Паук: Возвращение домой</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <img src="images/movie banners/3.jpg" alt="">
+            <div class="slider__components">
+                <a href="#" class="slider__btn">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+                <div href="#" class="slider__navs">
+                    <a href="#" class="slider__link">Человек Паук: Возвращение домой</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="content__inner">
+            <!-- Mobile Filter -->
+            
+
+            <!-- Categories && Soon movie Card -->
+            <div class="content__item mobile__filter">
+
+                <div class="content__title">
+                    <div class="content__title-info">
+                        <p class="content__title-txt">Выбор жанра</p>
+                        <i class="fa-solid fa-list-ul"></i>
+                    </div>
+                </div>
+
+                <ul class="category__menu">
+                    <li>
+                        <a href="#" class="category__link active">Все</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Биографии</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Боевики</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Военные</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Детективы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Документальные</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Драмы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Исторические</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Комидии</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Криминал</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Мелодрамы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Мульфильмы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Приключения</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Семейные</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Триллеры</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Ужасы</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__link">Фантастика</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Movies -->
+            <div class="content__movie">
+                <div class="content__movie-header">
+                    <div class="content__title">
+                        <p class="content__title-desc">Сортировка:</p>
+                        <div class="content__title-info">
+                            <p class="content__title-txt">Рекомендуемые</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="content__title">
+                        <p class="content__title-desc">Качество видео:</p>
+                        <div class="content__title-info">
+                            <p class="content__title-txt">Full HD 1080p</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="content__title">
+                        <p class="content__title-desc">Год выпуска:</p>
+                        <div class="content__title-info">
+                            <p class="content__title-txt">2024</p>
+                            <i class="fa-solid fa-grip"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Cards -->
+                <div class="content__movie-body">
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/1.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/2.jpg">
+                        </a>
+                        
+                        <a href="product-show.html" class="movie__card-title">Джек Покоритель Вел...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/3.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Тор Рагнарек</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/4.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Годзилла 2: Король мон...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/5.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Аватар путь воды</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/6.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Дюна: Часть Вторая</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/7.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Кунг-фу Пандcа 3</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/8.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Побег из Шоушенка</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/9.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Варкрафт</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/10.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Создатель</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <ul class="paginator">
+            <li>
+                <div class="paginator__btn">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="paginator__link pc__link">1</a>
+            </li>
+            <li>
+                <p class="paginator__dislink">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </p>
+            </li>
+            <li>
+                <a href="#" class="paginator__link">13</a>
+            </li>
+            <li>
+                <a href="#" class="paginator__link">14</a>
+            </li>
+            <li>
+                <a href="#" class="paginator__link is_active">15</a>
+            </li>
+            <li>
+                <a href="#" class="paginator__link">16</a>
+            </li>
+            <li>
+                <a href="#" class="paginator__link">17</a>
+            </li>
+            <li>
+                <p class="paginator__dislink">
+                    <i class="fa-solid fa-ellipsis"></i>
+                </p>
+            </li>
+            <li>
+                <a href="#" class="paginator__link pc__link">94</a>
+            </li>
+            <li>
+                <div class="paginator__btn">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <nav class="footer__navs">
+                <div class="footer-item">
+                    <!-- Footer Menu -->
+                    <h1 class="footer__title">Основные разделы</h1>
+                    <ul class="footer__menu">
+                        <li>
+                            <a href="#" class="footer__menu-link">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Новинки</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Стол заказов</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Помощь</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Footer Last Comments -->
+                <div class="last__comments">
+                    <h1 class="footer__title">Последние коментарии</h1>
+                    <div class="last__comment">
+                        <a href="#" class="last__comment-img">
+                            <img src="images/movie poseters/2.jpg" alt="">
+                        </a>
+                        <div class="last__comment-navs">
+                            <div class="last__comment-info">
+                                <a href="#" class="last__comment-title">Джек — покоритель великанов</a>
+                                <div class="last__comment-time">17:13</div>
+                            </div>
+                            <p class="last__comment-name">Don Mon</p>
+                            <p class="last__comment-txt">Cначала вроде бы ничего такой, а потом все окончательно испортилось ...</p>
+                        </div>
+                    </div>
+                    <div class="last__comment">
+                        <a href="#" class="last__comment-img">
+                            <img src="images/movie poseters/2.jpg" alt="">
+                        </a>
+                        <div class="last__comment-navs">
+                            <div class="last__comment-info">
+                                <a href="#" class="last__comment-title">Джек — покоритель великанов</a>
+                                <div class="last__comment-time">17:13</div>
+                            </div>
+                            <p class="last__comment-name">Don Mon</p>
+                            <p class="last__comment-txt">Cначала вроде бы ничего такой, а потом все окончательно испортилось ...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-item">
+                    <!-- Footer Contacts -->
+                    <div class="footer__contacts">
+                        <h1 class="footer__title">Следите за нами</h1>
+    
+                        <ul class="footer__contact-list">
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer Logo -->
+                    <a href="#" class="footer__logo">
+                        <div class="footer__logo-head">Kinogo</div>
+                        <div class="footer__logo-content">Online cinema</div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <a href="#" class="footer__copyright">
+            <div class="footer__inner">
+                @ 2023 KINOGO Cinema. All Rights Reserved
+            </div>
+        </a>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Slider Slick Js -->
+    <script src="js/slick.min.js"></script>
+    <!-- Header Js -->
+    <script src="js/header.js"></script>
+    <!-- Slider Slick Js -->
+    <script src="js/slider.js"></script>
+</body>
+</html>

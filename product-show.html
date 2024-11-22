@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinogo online cinema</title>
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">    
+        <div class="container">
+            
+            <div class="header__inner">
+
+                <!-- Burger && Logo -->
+                <div class="header__item">
+                    <!-- Burger -->
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    
+                    <!-- Logo -->
+                    <a href="index.html" class="header__logo">Kinogo</a>
+                
+                    <!-- Mobile Search Btn -->
+                    <a href="" class="header__icon header__icon_mobile">
+                        <i class="fa-solid fa-search"></i>
+                    </a>
+                </div>
+
+                <!-- Search Form -->
+                <form action="#" class="header__search">
+                    <input type="text" class="header__search-input" placeholder="Пираты Карибского моря 2">
+                    <button class="header__search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <!-- Icons && User -->
+                <div class="header__navs">
+                    <!-- Icons -->
+                    <div class="header__icons">
+                        <a href="" class="header__icon">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                        <a href="" class="header__icon">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                    </div>
+
+                    <!-- User -->
+                    <a href="#" class="header__user">
+                        <img src="images/user.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile__menu">
+        <div class="mobile__menu-container">
+            
+            <ul class="mobile__menu-list">
+                <li>
+                    <a href="#" class="mobile__menu-link">Главная</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Новинки</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Стол заказов</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Помощь</a>
+                </li>
+                <li>
+                    <a href="#" class="mobile__menu-link">Контакты</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content bg__grey">
+        <div class="container__secondary">
+            <!-- Bg back Image -->
+            <div class="product__show-bg">
+                <img src="images/movie banners/5.jpg">
+                <div class="shadow__bg"></div>
+            </div>
+            
+            <div class="product__show-inner">
+                <!-- Images and vk form -->
+                <div class="product__show-head">
+                    <img src="images/movie poseters/3.jpg" class="product__show-image">
+                    <div class="product__show-cadrs">
+                        <p>Кадры из фильма:</p>
+                        <div class="ps__cadr-inner">
+                            <div class="ps__cadr-img">
+                                <img src="images/cadrs/1.jpg">
+                            </div>
+                            <div class="ps__cadr-img">
+                                <img src="images/cadrs/2.jpeg">
+                            </div>
+                            <div class="ps__cadr-img">
+                                <img src="images/cadrs/2.jpeg">
+                            </div>
+                        </div>
+                        <button class="btn__primary">Добавить в закладки</button>
+                    </div>
+                </div>
+
+                <!-- Info about films -->
+                <div class="product__show-content">
+                    <!-- Movie title and rating -->
+                    <div class="product__nav">
+                        <h1 class="product__title">Джек Покоритель Великанов</h1>
+                        <div class="product__rating">
+                            <ul class="product__star">
+                                <li class="product__star-active">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="product__star-active">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="product__star-active">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="product__star-active">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>    
+                            </ul>
+                            <p class="product__star-count">(84)</p>
+                        </div>
+                    </div>
+
+                    <!-- Categories Types ... Information -->
+                    <div class="product__info">
+                        <ul class="product__info-item">
+                            <li>
+                                Режжисер: Брайан Сингер
+                            </li>
+                            <li>
+                                Год выпуска: <a href="#" class="link__primary">2012</a>
+                            </li>
+                            <li>
+                                Жанр: 
+                                <a href="#" class="link__primary">Приключение</a>
+                                <a href="#" class="link__primary">Фэнтези</a>
+                            </li>
+                        </ul>
+
+                        <ul class="product__info-item">
+                            <li>Перевод: Дублированный iTunes</li>
+                            <li>Длительность: 1:29:31</li>
+                        </ul>
+                    </div>
+
+                    <!-- Description -->
+                    <p class="product__desc mobile__none">
+                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера по имени Джек, который случайно открывает портал в мир огромных великанов. Отважный герой оказывается втянут в эпическую борьбу между людьми и великанами, стремящимися вернуть утраченное давно господство над землей. Смотреть онлайн этот фильм – значит отправиться в невероятное приключение, полное битв, чудес и неожиданных поворотов, где настоящая отвага и дружба сталкиваются с невообразимой опасностью.
+                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера 
+                    </p>
+
+                    <!-- Share -->
+                    <div class="product__share mobile__none">
+                        <p>Поделиться с друзями</p>
+                        <ul class="product__share-list">
+                            <li>
+                                <a class="facebook" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href=""><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a class="vk" href=""><i class="fa-brands fa-vk"></i></a>
+                            </li>
+                            <li>
+                                <a class="odnoklassniki" href=""><i class="fa-brands fa-odnoklassniki"></i></a>
+                            </li>
+                            <li>
+                                <a class="tiktok" href=""><i class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product__player mobile__none"></div>
+
+                </div>
+            </div>
+
+            <!-- Moblie El -->
+            <div class="mobile__el">
+                <div class="mobile__product-menu">
+                    <div class="product-menu__btn is_active">Подробнее</div>
+                    <div class="product-menu__btn">Кадры</div>
+                    <div class="product-menu__btn">Рекомендумые</div>
+                </div>
+
+                <!-- Product Description -->
+                <div class="mobile__product-desc">
+                    <p class="moblie__product-title">О фильме</p>
+                    <p class="mobile__product-txt">
+                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера по имени Джек, который случайно открывает портал в мир огромных великанов. Отважный герой оказывается втянут в эпическую борьбу между людьми и великанами, стремящимися вернуть утраченное давно господство над землей. Смотреть онлайн этот фильм – значит отправиться в невероятное приключение, полное битв, чудес и неожиданных поворотов, где настоящая отвага и дружба сталкиваются с невообразимой опасностью.
+                        <br><br>
+                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера 
+                    </p>
+                </div>
+
+                
+            </div>
+
+            <!-- Recommendation Films -->
+            <div class="blog__recommendation">
+                <div class="content__title">
+                    <div class="content__title-info">
+                        <p class="content__title-txt">Рекомендуем посмотреть</p>
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>   
+
+                <div class="recommendation__products">
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/1.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/4.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/7.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                    <div class="movie__card">
+                        <a href="#" class="movie__card-img">
+                            <img src="images/movie poseters/9.jpg">
+                        </a>
+                        
+                        <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+
+                        <ul class="movie__card-categories">
+                            <li>
+                                <a href="#" class="movie__card-category-link">Боевики</a>
+                            </li>
+                            <li>
+                                <a href="#" class="movie__card-category-link">Приключения</a>
+                            </li>
+                        </ul>
+
+                        <ul class="movie__card-rating">
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star dis-star"></i>
+                            </li>
+                        </ul>
+
+                        <div class="movie__card-navs">
+                            <div class="movie__card-btn">HD</div>
+                            <div class="movie__card-btn">Дубляж</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="blog__comments">
+                <div class="content__title">
+                    <div class="content__title-info">
+                        <p class="content__title-txt">Комментарии к фильму</p>
+                        <i class="fa-solid fa-comment"></i>
+                    </div>
+                    <button class="btn__primary btn__bg-blue">Добавить коментарии</button>
+                </div>  
+
+                <!-- Add comment -->
+                <form action="#" class="add__comment">
+                    <textarea type="text" class="add__comment-input"></textarea>
+                    <button class="btn__primary btn__bg-blue">Отправить</button>
+                </form>
+
+                <!-- All comments -->
+                <div class="comments">
+                    <div class="comment-item">
+                        <div class="comment__head">
+                            <div class="comment__img"></div>
+                            <div class="comment__status">
+                                <button class="comment__dislikes"><span class="minus__icon">-</span>2</button>
+                                <button class="comment__likes"><span class="plus__icon">+</span>8</button>
+                            </div>
+                        </div>
+                        <div class="comment__body">
+                            <div class="comment__body-nav">
+                                <p class="comment__user-name">Elena</p>
+                                <div class="comment__user-date">5 октября 2024 / 20:47</div>
+                            </div>
+                            <p class="comment__txt">
+                                Смотрели эту часть в кино. Я не чуть не огорчена от предыдущих не
+                                отстает! Всего в меру. Дети (три и пять лет) посмотрели полностью
+                                без отрыва. В мультике очаровательные свинки обворожительный
+                                брат Грю, Мамочка Люси!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment__head">
+                            <div class="comment__img"></div>
+                            <div class="comment__status">
+                                <button class="comment__dislikes"><span class="minus__icon">-</span>2</button>
+                                <button class="comment__likes"><span class="plus__icon">+</span>8</button>
+                            </div>
+                        </div>
+                        <div class="comment__body">
+                            <div class="comment__body-nav">
+                                <p class="comment__user-name">Elena</p>
+                                <div class="comment__user-date">5 октября 2024 / 20:47</div>
+                            </div>
+                            <p class="comment__txt">
+                                Смотрели эту часть в кино. Я не чуть не огорчена от предыдущих не
+                                отстает! Всего в меру. Дети (три и пять лет) посмотрели полностью
+                                без отрыва. В мультике очаровательные свинки обворожительный
+                                брат Грю, Мамочка Люси!
+
+                                Смотрели эту часть в кино. Я не чуть не огорчена от предыдущих не
+                                отстает! Всего в меру. Дети (три и пять лет) посмотрели полностью
+                                без отрыва. В мультике очаровательные свинки обворожительный
+                                брат Грю, Мамочка Люси!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment__head">
+                            <div class="comment__img"></div>
+                            <div class="comment__status">
+                                <button class="comment__dislikes"><span class="minus__icon">-</span>2</button>
+                                <button class="comment__likes"><span class="plus__icon">+</span>8</button>
+                            </div>
+                        </div>
+                        <div class="comment__body">
+                            <div class="comment__body-nav">
+                                <p class="comment__user-name">Elena</p>
+                                <div class="comment__user-date">5 октября 2024 / 20:47</div>
+                            </div>
+                            <p class="comment__txt">
+                                Смотрели эту часть в кино. Я не чуть не огорчена от предыдущих не
+                                отстает! Всего в меру. Дети (три и пять лет) посмотрели полностью
+                                без отрыва. В мультике очаровательные свинки обворожительный
+                                брат Грю, Мамочка Люси!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <nav class="footer__navs">
+                <div class="footer-item">
+                    <!-- Footer Menu -->
+                    <h1 class="footer__title">Основные разделы</h1>
+                    <ul class="footer__menu">
+                        <li>
+                            <a href="#" class="footer__menu-link">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Новинки</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Стол заказов</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Помощь</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- Footer Last Comments -->
+                <div class="last__comments">
+                    <h1 class="footer__title">Последние коментарии</h1>
+                    <div class="last__comment">
+                        <a href="#" class="last__comment-img">
+                            <img src="images/movie poseters/2.jpg" alt="">
+                        </a>
+                        <div class="last__comment-navs">
+                            <div class="last__comment-info">
+                                <a href="#" class="last__comment-title">Джек — покоритель великанов</a>
+                                <div class="last__comment-time">17:13</div>
+                            </div>
+                            <p class="last__comment-name">Don Mon</p>
+                            <p class="last__comment-txt">Cначала вроде бы ничего такой, а потом все окончательно испортилось ...</p>
+                        </div>
+                    </div>
+                    <div class="last__comment">
+                        <a href="#" class="last__comment-img">
+                            <img src="images/movie poseters/2.jpg" alt="">
+                        </a>
+                        <div class="last__comment-navs">
+                            <div class="last__comment-info">
+                                <a href="#" class="last__comment-title">Джек — покоритель великанов</a>
+                                <div class="last__comment-time">17:13</div>
+                            </div>
+                            <p class="last__comment-name">Don Mon</p>
+                            <p class="last__comment-txt">Cначала вроде бы ничего такой, а потом все окончательно испортилось ...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-item">
+                    <!-- Footer Contacts -->
+                    <div class="footer__contacts">
+                        <h1 class="footer__title">Следите за нами</h1>
+    
+                        <ul class="footer__contact-list">
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer Logo -->
+                    <a href="#" class="footer__logo">
+                        <div class="footer__logo-head">Kinogo</div>
+                        <div class="footer__logo-content">Online cinema</div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <a href="#" class="footer__copyright">
+            <div class="footer__inner">
+                @ 2023 KINOGO Cinema. All Rights Reserved
+            </div>
+        </a>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Slider Slick Js -->
+    <script src="js/slick.min.js"></script>
+    <!-- Header Js -->
+    <script src="js/header.js"></script>
+    <!-- Slider Slick Js -->
+    <script src="js/slider.js"></script>
+    <!-- Content Js -->
+    <script src="js/content.js"></script>
+</body>
+</html>
