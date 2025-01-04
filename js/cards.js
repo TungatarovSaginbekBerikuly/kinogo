@@ -1,11 +1,10 @@
-let cadrImage = document.querySelectorAll('.ps__cadr-img');
-    body = document.getElementsByTagName('body')[0];
+let cadr = document.querySelectorAll('.cadrs-modal');
 
-for (let i = 0; i < cadrImage.length; i++) {
-    cadrImage[i].addEventListener('click', () => {
-        cadrImage[i].classList.toggle('active');
-        body.classList.toggle('active');    
-    });
+for (let i = 0; i < cadr.length; i++) {
+    cadr[i].onclick = () => {
+        cadr[i].classList.toggle('active');
+        document.querySelector('body').classList.toggle('active');    
+    };
 }
 
 // Product Show Moblie Menu

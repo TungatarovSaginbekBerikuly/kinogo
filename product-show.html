@@ -100,20 +100,31 @@
                 <!-- Images and vk form -->
                 <div class="product__show-head">
                     <img src="images/movie poseters/3.jpg" class="product__show-image">
-                    <div class="product__show-cadrs">
-                        <p>Кадры из фильма:</p>
-                        <div class="ps__cadr-inner">
-                            <div class="ps__cadr-img">
-                                <img src="images/cadrs/1.jpg">
+
+                    <!-- Product Cadrs -->
+                    <div class="product-cadrs">
+                        <div class="cadrs-wrap">
+                            <p class="cadrs-title">Кадры из фильма:</p>
+                            <div class="cadrs-inner">
+                                <div class="cadrs-box">
+                                    <div class="cadrs-modal">
+                                        <img src="images/cadrs/1.jpg" class="cadrs-modal-image">
+                                    </div>
+                                </div>
+                                <div class="cadrs-box">
+                                    <div class="cadrs-modal">
+                                        <img src="images/cadrs/2.jpeg" class="cadrs-modal-image">
+                                    </div>
+                                </div>
+                                <div class="cadrs-box">
+                                    <div class="cadrs-modal">
+                                        <img src="images/cadrs/1.jpg" class="cadrs-modal-image">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="ps__cadr-img">
-                                <img src="images/cadrs/2.jpeg">
-                            </div>
-                            <div class="ps__cadr-img">
-                                <img src="images/cadrs/2.jpeg">
-                            </div>
+                            
+                            <button class="btn__primary">Добавить в закладки</button>
                         </div>
-                        <button class="btn__primary">Добавить в закладки</button>
                     </div>
                 </div>
 
@@ -144,36 +155,303 @@
                         </div>
                     </div>
 
-                    <!-- Categories Types ... Information -->
-                    <div class="product__info">
-                        <ul class="product__info-item">
-                            <li>
-                                Режжисер: Брайан Сингер
-                            </li>
-                            <li>
-                                Год выпуска: <a href="#" class="link__primary">2012</a>
-                            </li>
-                            <li>
-                                Жанр: 
-                                <a href="#" class="link__primary">Приключение</a>
-                                <a href="#" class="link__primary">Фэнтези</a>
-                            </li>
-                        </ul>
 
-                        <ul class="product__info-item">
-                            <li>Перевод: Дублированный iTunes</li>
-                            <li>Длительность: 1:29:31</li>
-                        </ul>
+                    <div class="product-tabs">
+                        <div class="product-tabs-wrap">
+                            <div class="product-tabs-btn active" data="1">Подробнее</div>
+                            <div class="product-tabs-btn" data="2">Кадры</div>
+                            <div class="product-tabs-btn" data="3">Рекомендуем</div>
+                        </div>
+                        <div class="product-tabs-body" data="1">
+                            <!-- Categories Types ... Information -->
+                            <div class="product__info">
+                                <ul class="product__info-item">
+                                    <li>
+                                        Режжисер: Брайан Сингер
+                                    </li>
+                                    <li>
+                                        Год выпуска: <a href="#" class="link__primary">2012</a>
+                                    </li>
+                                    <li>
+                                        Жанр: 
+                                        <a href="#" class="link__primary">Приключение</a>
+                                        <a href="#" class="link__primary">Фэнтези</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="product__info-item">
+                                    <li>Перевод: Дублированный iTunes</li>
+                                    <li>Длительность: 1:29:31</li>
+                                </ul>
+                            </div>
+                            <h2 class="product-secondary-title">О фильме</h2>
+                            <!-- Description -->
+                            <p class="product__desc">
+                                «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера по имени Джек, который случайно открывает портал в мир огромных великанов. Отважный герой оказывается втянут в эпическую борьбу между людьми и великанами, стремящимися вернуть утраченное давно господство над землей. Смотреть онлайн этот фильм – значит отправиться в невероятное приключение, полное битв, чудес и неожиданных поворотов, где настоящая отвага и дружба сталкиваются с невообразимой опасностью.
+                            </p>  
+                        </div>
+                        <div class="product-tabs-body" data="2">
+                            <div class="product-tabs-cadrs">
+                                <div class="cadrs-box">
+                                    <div class="cadrs-modal">
+                                        <img src="images/cadrs/1.jpg" class="cadrs-modal-image">
+                                    </div>
+                                </div>
+                                <div class="cadrs-box">
+                                    <div class="cadrs-modal">
+                                        <img src="images/cadrs/2.jpeg" class="cadrs-modal-image">
+                                    </div>
+                                </div>
+                                <div class="cadrs-box">
+                                    <div class="cadrs-modal">
+                                        <img src="images/cadrs/1.jpg" class="cadrs-modal-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-tabs-body" data="3">
+                            <h2 class="product-secondary-title">Рекомендуем посмотреть</h2>
+                            <div class="product-tabs-recommendation">
+                                <div class="movie__card">
+                                    <a href="#" class="movie__card-img">
+                                        <img src="images/movie poseters/1.jpg">
+                                    </a>
+                                    
+                                    <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+            
+                                    <ul class="movie__card-categories">
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Боевики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Приключения</a>
+                                        </li>
+                                    </ul>
+            
+                                    <ul class="movie__card-rating">
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star dis-star"></i>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="movie__card-navs">
+                                        <div class="movie__card-btn">HD</div>
+                                        <div class="movie__card-btn">Дубляж</div>
+                                    </div>
+                                </div>
+                                <div class="movie__card">
+                                    <a href="#" class="movie__card-img">
+                                        <img src="images/movie poseters/4.jpg">
+                                    </a>
+                                    
+                                    <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+            
+                                    <ul class="movie__card-categories">
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Боевики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Приключения</a>
+                                        </li>
+                                    </ul>
+            
+                                    <ul class="movie__card-rating">
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star dis-star"></i>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="movie__card-navs">
+                                        <div class="movie__card-btn">HD</div>
+                                        <div class="movie__card-btn">Дубляж</div>
+                                    </div>
+                                </div>
+                                <div class="movie__card">
+                                    <a href="#" class="movie__card-img">
+                                        <img src="images/movie poseters/7.jpg">
+                                    </a>
+                                    
+                                    <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+            
+                                    <ul class="movie__card-categories">
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Боевики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Приключения</a>
+                                        </li>
+                                    </ul>
+            
+                                    <ul class="movie__card-rating">
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star dis-star"></i>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="movie__card-navs">
+                                        <div class="movie__card-btn">HD</div>
+                                        <div class="movie__card-btn">Дубляж</div>
+                                    </div>
+                                </div>
+                                <div class="movie__card">
+                                    <a href="#" class="movie__card-img">
+                                        <img src="images/movie poseters/9.jpg">
+                                    </a>
+                                    
+                                    <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+            
+                                    <ul class="movie__card-categories">
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Боевики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Приключения</a>
+                                        </li>
+                                    </ul>
+            
+                                    <ul class="movie__card-rating">
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star dis-star"></i>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="movie__card-navs">
+                                        <div class="movie__card-btn">HD</div>
+                                        <div class="movie__card-btn">Дубляж</div>
+                                    </div>
+                                </div>
+                                <div class="movie__card">
+                                    <a href="#" class="movie__card-img">
+                                        <img src="images/movie poseters/7.jpg">
+                                    </a>
+                                    
+                                    <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+            
+                                    <ul class="movie__card-categories">
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Боевики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Приключения</a>
+                                        </li>
+                                    </ul>
+            
+                                    <ul class="movie__card-rating">
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star dis-star"></i>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="movie__card-navs">
+                                        <div class="movie__card-btn">HD</div>
+                                        <div class="movie__card-btn">Дубляж</div>
+                                    </div>
+                                </div>
+                                <div class="movie__card">
+                                    <a href="#" class="movie__card-img">
+                                        <img src="images/movie poseters/9.jpg">
+                                    </a>
+                                    
+                                    <a href="#" class="movie__card-title">Человек Паук Вдали От ...</a>
+            
+                                    <ul class="movie__card-categories">
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Боевики</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="movie__card-category-link">Приключения</a>
+                                        </li>
+                                    </ul>
+            
+                                    <ul class="movie__card-rating">
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-star dis-star"></i>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="movie__card-navs">
+                                        <div class="movie__card-btn">HD</div>
+                                        <div class="movie__card-btn">Дубляж</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Description -->
-                    <p class="product__desc mobile__none">
-                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера по имени Джек, который случайно открывает портал в мир огромных великанов. Отважный герой оказывается втянут в эпическую борьбу между людьми и великанами, стремящимися вернуть утраченное давно господство над землей. Смотреть онлайн этот фильм – значит отправиться в невероятное приключение, полное битв, чудес и неожиданных поворотов, где настоящая отвага и дружба сталкиваются с невообразимой опасностью.
-                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера 
-                    </p>
-
                     <!-- Share -->
-                    <div class="product__share mobile__none">
+                    <div class="product__share">
                         <p>Поделиться с друзями</p>
                         <ul class="product__share-list">
                             <li>
@@ -194,30 +472,9 @@
                         </ul>
                     </div>
 
-                    <div class="product__player mobile__none"></div>
+                    <div class="product__player"></div>
 
                 </div>
-            </div>
-
-            <!-- Moblie El -->
-            <div class="mobile__el">
-                <div class="mobile__product-menu">
-                    <div class="product-menu__btn is_active">Подробнее</div>
-                    <div class="product-menu__btn">Кадры</div>
-                    <div class="product-menu__btn">Рекомендумые</div>
-                </div>
-
-                <!-- Product Description -->
-                <div class="mobile__product-desc">
-                    <p class="moblie__product-title">О фильме</p>
-                    <p class="mobile__product-txt">
-                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера по имени Джек, который случайно открывает портал в мир огромных великанов. Отважный герой оказывается втянут в эпическую борьбу между людьми и великанами, стремящимися вернуть утраченное давно господство над землей. Смотреть онлайн этот фильм – значит отправиться в невероятное приключение, полное битв, чудес и неожиданных поворотов, где настоящая отвага и дружба сталкиваются с невообразимой опасностью.
-                        <br><br>
-                        «Джек – покоритель великанов» (2013): фэнтези-приключение в высоком разрешении Фильм «Джек – покоритель великанов» – это захватывающее фэнтези-приключение, в которое стоит погрузиться, если вы любите средневековые сказки, исполненные магии и доблести. Сюжет разворачивается вокруг молодого фермера 
-                    </p>
-                </div>
-
-                
             </div>
 
             <!-- Recommendation Films -->
@@ -590,6 +847,8 @@
     <!-- Slider Slick Js -->
     <script src="js/slider.js"></script>
     <!-- Content Js -->
-    <script src="js/content.js"></script>
+    <script src="js/cards.js"></script>
+    <!-- Product tabs -->
+    <script src="js/product-tabs.js"></script>
 </body>
 </html>

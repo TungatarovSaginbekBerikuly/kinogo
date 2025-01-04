@@ -20,6 +20,8 @@
 @import url(auth.css);
 /* Contacts Css */
 @import url(contacts.css);
+/* SelectBox Css */
+@import url(selectbox.css);
 
 html, body {
     width: 100%;
@@ -30,11 +32,6 @@ body {
     padding: 0;
     background: #03040B;
     box-sizing: border-box;
-}
-
-/* Hidden Scrol */
-body.active {
-    overflow: hidden;
 }
 
 /* Buttons */

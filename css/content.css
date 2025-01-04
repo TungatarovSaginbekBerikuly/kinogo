@@ -30,7 +30,7 @@
 .content__item {
     width: 400px;
     display: flex;
-    grid-gap: 40px;
+    grid-gap: 25px;
     flex-direction: column;
 }
 
@@ -103,7 +103,6 @@
     display: flex;
     grid-gap: 40px;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .content__movie-body {
@@ -295,7 +294,7 @@
 }
 @media (max-width: 768px) {
     .container__secondary {
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 50px;
     }
     .content__movie-body {
@@ -316,7 +315,6 @@
         align-items: flex-start;
         flex-direction: column;
         grid-gap: 10px;
-        margin-bottom: 20px;
     }
     .content__title-info {
         font-size: 16px;
